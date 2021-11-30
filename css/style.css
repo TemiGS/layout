@@ -1,216 +1,37 @@
-*, body, html {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  font-family: 'Poppins'; }
+/*
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 169 of C:\Users\temig\Documents\GitHub\layout\css\style.scss
 
-a {
-  text-decoration: none; }
+164:             }
+165:         }
+166:     }
+167:     height: 50px;
+168:     background: #000;
+169: }
 
-.wrapper {
-  max-width: 1171px;
-  margin: 0 auto; }
-
-header {
-  background-color: #f1f1f1;
-  position: fixed;
-  width: 100%;
-  padding-top: 50px; }
-  header .wrapper {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f1f1f1; }
-    header .wrapper a {
-      display: block; }
-    header .wrapper nav ul {
-      display: flex; }
-      header .wrapper nav ul li {
-        font-size: 14px;
-        margin-right: 35px; }
-        header .wrapper nav ul li a {
-          color: black; }
-    header .wrapper .burger {
-      display: none; }
-    @media screen and (max-width: 600px) {
-      header .wrapper .burger {
-        display: block; }
-      header .wrapper nav {
-        display: none; } }
-
-.kelvin {
-  background: #f1f1f1; }
-  .kelvin .wrapper {
-    padding-top: 250px;
-    display: flex;
-    justify-content: space-between; }
-    .kelvin .wrapper .text {
-      margin-top: 250px; }
-      .kelvin .wrapper .text h2 {
-        width: 450px;
-        font-size: 44px; }
-      .kelvin .wrapper .text p {
-        width: 540px;
-        font-size: 14px;
-        margin-top: 15px; }
-    @media screen and (max-width: 1100px) {
-      .kelvin .wrapper img {
-        display: none; }
-      .kelvin .wrapper .text {
-        text-align: center; }
-        .kelvin .wrapper .text h2 {
-          text-align: center;
-          width: 100%; }
-        .kelvin .wrapper .text p {
-          text-align: center;
-          width: 100%; } }
-
-/*# sourceMappingURL=style.css.map */
-=======
-  font-family: 'Poppins';
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-._bg__gray {
-  background: #f6f6f6;
-  padding: 110px 0;
-}
-
-.wrapper {
-  max-width: 1171px;
-  margin: 0 auto;
-}
-
-.forms-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.forms-section h2 {
-  font-size: 36px;
-  font-weight: 600;
-}
-
-.forms-section p {
-  font-size: 14px;
-  opacity: 0.5;
-}
-
-.forms-section p a {
-  color: #ffae00;
-}
-
-.form {
-  min-width: 950px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 20px 0 0 0;
-}
-
-.form .inputs {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0 0 25px 0;
-}
-
-.form .inputs input {
-  width: 295px;
-  height: 60px;
-  outline: none;
-  font-size: 12px;
-  padding: 0 0 0 17px;
-  border: none;
-}
-
-.form .inputs input::-webkit-input-placeholder {
-  font-size: 12px;
-  opacity: 0.5;
-}
-
-.form .inputs input:-ms-input-placeholder {
-  font-size: 12px;
-  opacity: 0.5;
-}
-
-.form .inputs input::-ms-input-placeholder {
-  font-size: 12px;
-  opacity: 0.5;
-}
-
-.form .inputs input::placeholder {
-  font-size: 12px;
-  opacity: 0.5;
-}
-
-.form .textareas {
-  width: 100%;
-  margin: 0 0 25px 0;
-}
-
-.form .textareas textarea {
-  width: 100%;
-  height: 160px;
-  outline: none;
-  font-size: 12px;
-  padding: 0 26px 0 17px;
-  border: none;
-}
-
-.form .textareas textarea::-webkit-input-placeholder {
-  font-size: 12px;
-  opacity: 0.5;
-  margin: 26px 0 0 0;
-}
-
-.form .textareas textarea:-ms-input-placeholder {
-  font-size: 12px;
-  opacity: 0.5;
-  margin: 26px 0 0 0;
-}
-
-.form .textareas textarea::-ms-input-placeholder {
-  font-size: 12px;
-  opacity: 0.5;
-  margin: 26px 0 0 0;
-}
-
-.form .textareas textarea::placeholder {
-  font-size: 12px;
-  opacity: 0.5;
-  margin: 26px 0 0 0;
-}
-
-.form .btn {
-  width: 471px;
-  height: 60px;
-  background: #ffae00;
-  color: white;
-  border: 0;
-}
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+C:\Users\temig\Documents\GitHub\layout\css\style.scss:169
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:679:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 169 of C:\Users\temig\Documents\GitHub\layout\css\style.scss\A \A 164:             }\A 165:         }\A 166:     }\A 167:     height: 50px;\A 168:     background: #000;\A 169: }"; }
