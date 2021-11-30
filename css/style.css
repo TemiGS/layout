@@ -67,3 +67,150 @@ header {
           width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
+=======
+  font-family: 'Poppins';
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+._bg__gray {
+  background: #f6f6f6;
+  padding: 110px 0;
+}
+
+.wrapper {
+  max-width: 1171px;
+  margin: 0 auto;
+}
+
+.forms-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.forms-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.forms-section p {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.forms-section p a {
+  color: #ffae00;
+}
+
+.form {
+  min-width: 950px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0 0 0;
+}
+
+.form .inputs {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 25px 0;
+}
+
+.form .inputs input {
+  width: 295px;
+  height: 60px;
+  outline: none;
+  font-size: 12px;
+  padding: 0 0 0 17px;
+  border: none;
+}
+
+.form .inputs input::-webkit-input-placeholder {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.form .inputs input:-ms-input-placeholder {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.form .inputs input::-ms-input-placeholder {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.form .inputs input::placeholder {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.form .textareas {
+  width: 100%;
+  margin: 0 0 25px 0;
+}
+
+.form .textareas textarea {
+  width: 100%;
+  height: 160px;
+  outline: none;
+  font-size: 12px;
+  padding: 0 26px 0 17px;
+  border: none;
+}
+
+.form .textareas textarea::-webkit-input-placeholder {
+  font-size: 12px;
+  opacity: 0.5;
+  margin: 26px 0 0 0;
+}
+
+.form .textareas textarea:-ms-input-placeholder {
+  font-size: 12px;
+  opacity: 0.5;
+  margin: 26px 0 0 0;
+}
+
+.form .textareas textarea::-ms-input-placeholder {
+  font-size: 12px;
+  opacity: 0.5;
+  margin: 26px 0 0 0;
+}
+
+.form .textareas textarea::placeholder {
+  font-size: 12px;
+  opacity: 0.5;
+  margin: 26px 0 0 0;
+}
+
+.form .btn {
+  width: 471px;
+  height: 60px;
+  background: #ffae00;
+  color: white;
+  border: 0;
+}
+/*# sourceMappingURL=style.css.map */
