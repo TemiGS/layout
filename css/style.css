@@ -14,14 +14,16 @@ a {
   margin: 0 auto; }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #f1f1f1; }
+  background-color: #f1f1f1;
+  position: fixed;
+  width: 100%;
+  padding-top: 50px; }
   header .wrapper {
+    display: flex;
+    justify-content: space-between;
     background-color: #f1f1f1; }
     header .wrapper a {
-      display: block;
-      margin-top: 57px; }
+      display: block; }
     header .wrapper nav ul {
       display: flex; }
       header .wrapper nav ul li {
@@ -29,5 +31,39 @@ header {
         margin-right: 35px; }
         header .wrapper nav ul li a {
           color: black; }
+    header .wrapper .burger {
+      display: none; }
+    @media screen and (max-width: 600px) {
+      header .wrapper .burger {
+        display: block; }
+      header .wrapper nav {
+        display: none; } }
+
+.kelvin {
+  background: #f1f1f1; }
+  .kelvin .wrapper {
+    padding-top: 250px;
+    display: flex;
+    justify-content: space-between; }
+    .kelvin .wrapper .text {
+      margin-top: 250px; }
+      .kelvin .wrapper .text h2 {
+        width: 450px;
+        font-size: 44px; }
+      .kelvin .wrapper .text p {
+        width: 540px;
+        font-size: 14px;
+        margin-top: 15px; }
+    @media screen and (max-width: 1100px) {
+      .kelvin .wrapper img {
+        display: none; }
+      .kelvin .wrapper .text {
+        text-align: center; }
+        .kelvin .wrapper .text h2 {
+          text-align: center;
+          width: 100%; }
+        .kelvin .wrapper .text p {
+          text-align: center;
+          width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
